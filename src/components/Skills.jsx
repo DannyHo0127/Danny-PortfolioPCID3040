@@ -4,7 +4,7 @@ import CPP from "../Images/CPP.png";
 import C from "../Images/C.png";
 import Python from "../Images/Python.jpeg";
 import TabularEditor from "../Images/TabularEditor.png";
-import PowerBi from "../Images/PowerBi.jpeg";
+import PowerBi from "../Images/PowerBI.jpeg";
 import { FaJava } from "react-icons/fa";
 import { PiFileSqlDuotone } from "react-icons/pi";
 import { PiFileHtmlDuotone } from "react-icons/pi";
