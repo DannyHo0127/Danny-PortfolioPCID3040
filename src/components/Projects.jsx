@@ -35,7 +35,7 @@ const Projects = () => {
                                     href={Project.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="mt-4 inline-flex items-center py-2 px-4 bg-gray-800 text-white rounded-md"
+                                    className="mt-4 inline-flex items-center py-2 px-4 bg-gray-800 text-white rounded-md hover:scale-[1.2] transform transition duration-300 ease-in-out"
                                 >
                                     <FaGithub />
                                 </a>)}
