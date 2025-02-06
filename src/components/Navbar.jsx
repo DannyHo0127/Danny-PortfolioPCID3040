@@ -17,7 +17,6 @@ const Navbar = () => {
     return (
         <nav className="bg-black sticky top-0 z-50 w-full ">
             <div className="flex items-center justify-between px-6 py-10">
-                {/* Left Section: Resume and Social Links */}
                 <div className="flex items-center gap-6 text-white">
                     <a href="/Danny_K_Ho_Resume Public.pdf" download="Danny_K_Ho_Resume Public.pdf" className="text-lg hover:underline">
                         Resume

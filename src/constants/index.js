@@ -50,4 +50,27 @@ export const PROJECTS = [
   },
 ];
 
+export const REFERENCES = [
+  {
+    person: "Troy P.",
+    title: "Senior BI Developer",
+    description: "Danny is a great person to be around. He learns and adapt quickly and provide great ideas and concepts in our meetings."
+  },
+  {
+    person: "Tom S.",
+    title: "Global Project Manager",
+    description: "He loves to learn and does not hesitate to reach out for learning opportunities."
+  },
+  {
+    person: "Morgan B.",
+    title: "Recruiter",
+    description: "He is an energetic and determined individual who has accomplished many important projects."
+  },
+  {
+    person: "Geoff V.",
+    title: "Director of EHS",
+    description: "Danny gets along well with other EHS team members and is enthusiastic to learn more about sustainability, environment, and safety from them"
+  },
+];
+
 
