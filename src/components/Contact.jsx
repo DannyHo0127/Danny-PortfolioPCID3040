@@ -33,7 +33,7 @@ const Contact = () => {
     });
 
     return (
-        <div className="pb-32 h-full max-w-[1440px] mx-auto flex items-center gap-[30px]">
+        <div id="contact" className="pb-32 h-full max-w-[1440px] mx-auto flex items-center gap-[30px] pt-20">
             <div className="text-center text-2xl space-y-6 my-6 flex-1 flex flex-col gap-4">
                 <motion.h1
                     className="text-center text-[40px] font-bold text-gray-800"
@@ -82,7 +82,7 @@ const Contact = () => {
                         {...fadeIn(1)}
                     />
                     <motion.input
-                        className="p-3 text-sm bg-transparent border border-black rounded-sm text-black"
+                        className="p-3 sm:p-2 text-sm bg-transparent border border-black rounded-sm text-black"
                         type="email"
                         required
                         placeholder="Email"
@@ -90,7 +90,7 @@ const Contact = () => {
                         {...fadeIn(1)}
                     />
                     <motion.textarea
-                        className="p-3 text-sm bg-transparent border border-black rounded-sm text-black"
+                        className="p-3 sm:p-2 text-sm bg-transparent border border-black rounded-sm text-black"
                         rows={6}
                         required
                         placeholder="Message"
@@ -98,7 +98,7 @@ const Contact = () => {
                         {...fadeIn(1)}
                     />
                     <motion.button
-                        className="p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                        className="p-3 sm:p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
                         {...fadeIn(1)}
                     >
                         Submit

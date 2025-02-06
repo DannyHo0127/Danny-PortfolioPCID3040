@@ -3,7 +3,7 @@ import project2 from "../Images/projects/project-2.jpg";
 import project3 from "../Images/projects/project-3.jpg";
 import project4 from "../Images/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate and driven computer science student actively seeking exciting opportunities to grow and contribute. With a strong foundation in data analysis, software development, project management, etc, I bring a versatile skill set and a commitment to delivering impactful solutions and results.`;
+export const HERO_CONTENT = `I am a passionate and driven computer science student actively seeking exciting opportunities to grow and contribute. With a strong foundation in data analysis, software development, project management, etc, I bring a versatile skill set and a commitment to delivering impactful solutions and results. The career opportunities I am interested in are data engineering or analysis, project management, software foundations, and other related fields.`;
 
 
 export const EXPERIENCES = [

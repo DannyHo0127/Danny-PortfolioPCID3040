@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 const Hero = () => {
     return (
-        <div className="border-none pb-10 lg:pb-20 lg:mb-36 px-6 lg:px-16">
+        <div id="hero" className="border-none pb-10 lg:pb-20 lg:mb-36 px-6 lg:px-16 pt-[100px]">
             <div className="flex flex-wrap lg:items-center">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start text-center lg:text-left">

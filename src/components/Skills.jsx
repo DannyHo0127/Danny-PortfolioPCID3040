@@ -17,7 +17,7 @@ const fadeIn = (delay = 0) => ({
 
 const Skills = () => {
     return (
-        <div className="pb-24">
+        <div id="skills" className="pb-24 pt-20">
             <motion.h1 {...fadeIn(0)} className="my-12 text-center text-3xl font-bold text-gray-800">Technical Skills</motion.h1>
             <div className="space-y-10">
                 <div className="flex flex-wrap items-center justify-center gap-4">
