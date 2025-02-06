@@ -40,6 +40,7 @@ const Navbar = () => {
                 <div className="hidden sm:flex items-center gap-6 text-white text-lg">
                     <a href="#hero" onClick={(e) => smoothScroll(e, "#hero")} className="hover:underline">Home</a>
                     <a href="#skills" onClick={(e) => smoothScroll(e, "#skills")} className="hover:underline">Skills</a>
+                    <a href="#reference" onClick={(e) => { smoothScroll(e, "#reference"); toggleMenu(); }} className="py-3 text-white text-xl hover:underline">References</a>
                     <a href="#experience" onClick={(e) => smoothScroll(e, "#experience")} className="hover:underline">Experience</a>
                     <a href="#projects" onClick={(e) => smoothScroll(e, "#projects")} className="hover:underline">Projects</a>
                     <a href="#contact" onClick={(e) => smoothScroll(e, "#contact")} className="hover:underline">Contact</a>
@@ -53,6 +54,7 @@ const Navbar = () => {
                 </button>
                 <a href="#hero" onClick={(e) => { smoothScroll(e, "#hero"); toggleMenu(); }} className="py-3 text-white text-xl hover:underline">Home</a>
                 <a href="#skills" onClick={(e) => { smoothScroll(e, "#skills"); toggleMenu(); }} className="py-3 text-white text-xl hover:underline">Skills</a>
+                <a href="#reference" onClick={(e) => { smoothScroll(e, "#reference"); toggleMenu(); }} className="py-3 text-white text-xl hover:underline">References</a>
                 <a href="#experience" onClick={(e) => { smoothScroll(e, "#experience"); toggleMenu(); }} className="py-3 text-white text-xl hover:underline">Experience</a>
                 <a href="#projects" onClick={(e) => { smoothScroll(e, "#projects"); toggleMenu(); }} className="py-3 text-white text-xl hover:underline">Projects</a>
                 <a href="#contact" onClick={(e) => { smoothScroll(e, "#contact"); toggleMenu(); }} className="py-3 text-white text-xl hover:underline">Contact</a>
